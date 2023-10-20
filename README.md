@@ -46,14 +46,14 @@
 
 ## PROJECT/GOALS
 
-1. To employ supervised learning techniques in
-   constructing a machine learning model capable
-   of predicting whether a patient has diabetes
-   based on diagnostic measurements.
+      1. To employ supervised learning techniques in
+         constructing a machine learning model capable
+         of predicting whether a patient has diabetes
+         based on diagnostic measurements.
 
-2. To communicate the insights and model predictions
-   effectively to stakeholders using appropriate
-   visualization and evaluation metrics.
+     2. To communicate the insights and model predictions
+        effectively to stakeholders using appropriate
+        visualization and evaluation metrics.
 
 
 ## PROCESS
