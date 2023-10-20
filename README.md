@@ -157,45 +157,45 @@
      of Pima Indian heritage, aged at least 21 years, can be 
      summarized as follows:
 
-    1. **Data Collection and Preprocessing:**
-       - The project begins with the collection of a
-         dataset containing diagnostic measurements for
-         female patients. 
-       - The dataset is cleaned, and missing values are handled.
-       - Outliers are addressed, and feature scaling and normalization
-         are performed.
-       - The data is prepared for modeling.
+    1.  Data Collection and Preprocessing:
+        - The project begins with the collection of a
+          dataset containing diagnostic measurements for
+          female patients. 
+        - The dataset is cleaned, and missing values are handled.
+        - Outliers are addressed, and feature scaling and normalization
+          are performed.
+        - The data is prepared for modeling.
 
-    2. **Exploratory Data Analysis (EDA):**
-       - Extensive EDA is conducted to gain insights into the data.
-       - Important observations, such as the imbalance in the target
-         variable, the presence of outliers in the "Insulin" feature,
-         and right-skewed distributions of "Insulin" and
-         "DiabetesPedigreeFunction," are identified.
-       - Correlations between features are analyzed, and the relationship
-         between feature variables and the target variable is explored
-         through visualizations.
+    2.  Exploratory Data Analysis (EDA):
+        - Extensive EDA is conducted to gain insights into the data.
+        - Important observations, such as the imbalance in the target
+          variable, the presence of outliers in the "Insulin" feature,
+          and right-skewed distributions of "Insulin" and
+          "DiabetesPedigreeFunction," are identified.
+        - Correlations between features are analyzed, and the relationship
+          between feature variables and the target variable is explored
+          through visualizations.
 
-    3. **Model Building and Evaluation:**
-       - Three machine learning models are selected for building
-         predictive models: Support Vector Classifier (SVC),
-         Logistic Regression, and Random Forest.
-       - Each model is trained on the dataset, and training and validation
-         accuracies are evaluated.
-       - The models' performance is compared, and key findings include
-         overfitting in SVC, a balanced but lower accuracy in Logistic
-         Regression, and improved accuracy and reduced overfitting
-         in Random Forest after hyperparameter tuning.
+    3.  Model Building and Evaluation:
+        - Three machine learning models are selected for building
+          predictive models: Support Vector Classifier (SVC),
+          Logistic Regression, and Random Forest.
+        - Each model is trained on the dataset, and training and validation
+          accuracies are evaluated.
+        - The models' performance is compared, and key findings include
+          overfitting in SVC, a balanced but lower accuracy in Logistic
+          Regression, and improved accuracy and reduced overfitting
+          in Random Forest after hyperparameter tuning.
 
-    4. **Solution Recommendations:**
-       - The analysis suggests that the Random Forest model, after
-         hyperparameter tuning, provides the best solution for diagnosing
-         diabetes in female patients.
-       - It offers the highest training and validation accuracies,
-         improved generalization, and a balanced performance.
-       - Logistic Regression also provides reasonable results with
-         balanced accuracy.
-       - SVC exhibits overfitting and a lower validation accuracy.
+    4.  Solution Recommendations:
+        - The analysis suggests that the Random Forest model, after
+          hyperparameter tuning, provides the best solution for diagnosing
+          diabetes in female patients.
+        - It offers the highest training and validation accuracies,
+          improved generalization, and a balanced performance.
+        - Logistic Regression also provides reasonable results with
+          balanced accuracy.
+        - SVC exhibits overfitting and a lower validation accuracy.
 
       The recommended solution is to deploy the Random Forest model
       for predicting diabetes in female patients based on the
